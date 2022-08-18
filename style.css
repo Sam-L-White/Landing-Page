@@ -133,16 +133,35 @@ body{
     width: 100%;
 }
 
-
-.quote{
+.quote-section{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
     background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
     
 }
-
-.quote em{
+.quote{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    margin-left: 800px;
+    margin-right: 800px;
     font-size: 36px;
-    color: #1F2937;
+    color: #1F2937;  
 }
+.quote-origin{
+    display: flex;
+    flex: 1 1 0;
+    justify-content: flex-end;
+    margin-left: 800px;
+    margin-right: 800px;
+    font-size: 26px;
+    color: #1F2937;  
+}
+
 
 .action{
     background-color: #3882F6;

@@ -8,8 +8,8 @@ body{
     
 }
 .navbar{
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 700px;
+    margin-right: 700px;
     margin-bottom: 100px;
     display: flex;
     flex: 1 1 auto;
@@ -27,13 +27,16 @@ body{
 .header{
     display: flex;
     flex: 1 1 auto;
-    gap: 0px;
-    margin-left: 600px;
-    margin-right: 600px;
+    gap: 50px;
+    margin-left: 700px;
+    margin-right: 700px;
     margin-bottom: 100px;
+    justify-content: flex-start;
     
 }
-
+.left{
+    margin-right: auto;
+ }
 .header h1{
     font-size: 48px;
     font-weight: bold;
@@ -46,6 +49,12 @@ body{
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
+}
+
+.header img{
+    height: 300px;
+    width: 600px;
+
 }
 
 .logo{

@@ -1,4 +1,27 @@
+html{
+    background-color: #1F2937;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
 .navbar{
     flex: 1 1 0;
-    background-color: #1F2937;
+    
+}
+
+.logo{
+    height: auto;
+    width: 100px;
+}
+
+.link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information{
+    background-color: white;
+}
+
+.quote{
+    background-color: #E5E7EB;
 }

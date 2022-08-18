@@ -90,6 +90,20 @@ body{
     background-color: white;
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    
+}
+
+.info-header{
+    display: flex;
+    flex: 1 1 0;
+    margin-left: 800px;
+    margin-right: 800px;
+    
 }
 
 .information h2{
@@ -97,6 +111,28 @@ body{
     font-weight: bold;
     color: #1F2937;
 }
+.info-images{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin-left: 800px;
+    margin-right: 800px;
+    gap: 30px;
+    
+}
+.info-image{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    height: 250px;
+    
+}
+.information img{
+    height: 100%;
+    width: 100%;
+}
+
 
 .quote{
     background-color: #E5E7EB;
